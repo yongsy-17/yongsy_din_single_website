@@ -1,0 +1,529 @@
+/* page1 */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    display: flex;
+    border: 1px solid #000;
+    padding: 10px 35px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    height: 60px;
+}
+nav ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    color: black;
+    font-weight: 500px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: blueviolet;
+}
+nav ul button{
+    padding: 15px;
+    font-weight: bold;
+    background: #000;
+    color: white;
+}
+nav ul button:hover{
+    position: relative;
+    top: -5px;
+}
+/* end nav */
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+.company-registration-section{
+    display: flex;
+    height: 100vh;
+    padding: 100px;
+    background: black;
+}
+.main-registration-content{
+    flex: 1.1;
+    display: flex;
+    flex-direction: column;
+    padding: 75px 75px 0px 0px;
+    color: white;
+ 
+}
+.main-registration-content ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+}
+.main-registration-content ul li{
+    display: flex;
+    align-items: center;
+
+}
+.main-registration-content ul li h5{
+    font-weight: bold;
+    font-size: 1em;
+}
+.main-registration-content ul li img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.main-registration-form{
+    flex: 0.9;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 75px 50px;
+    border-radius: 30px;
+}
+.main-registration-content h1{
+    font-size: 3em;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.main-registration-content p{
+    font-weight: bold;
+    font-size: 1em;
+}
+.main-registration-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+.form-info {
+    display: flex;
+    gap: 25px;
+    width: 100%;
+}
+.firstname , .lastname , .email ,.phone-number ,.company, .role{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-weight: bold;
+    font-size: 1em;
+}
+input{
+    padding: 25px;
+    width: 80%;
+    border: 1px solid transparent;
+    font-size: 1.2em;
+    border-radius: 35px;
+    outline: none;
+    margin-top: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+input:hover{
+    border: 1px solid blue;
+}
+.main-registration-form button{
+    padding: 20px;
+    font-size: 1.3em;
+    font-weight: bold;
+    background: rgb(245, 22, 96);
+    color: white;
+    border: none;
+    border-radius: 35px;
+    margin-top: 20px;
+}
+
+.main-registration-form .btn:hover{
+    position: relative;
+    background: black;
+
+}
+/* page 2 */
+.company-partner-section{
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+    padding: 100px;
+    height: 85vh;
+}
+.company-partner-section .partners{
+    display: flex;
+    width: 100%;
+
+}
+.company-partner-section .partners .partner{
+    flex: 1;
+    padding: 0px 40px;
+}
+/* page3 */
+.company-partner-section h2{
+    font-size: 2.1em;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+    color:gray;
+}
+.company-partner-section .partners .partner p:first-child{
+    font-size: 1.3em;
+    letter-spacing: 0.2px;
+    height: 48vh;
+    font-weight: 300;
+    line-height: 35px;
+    color: grey;
+}
+.company-partner-section .partners .partner p{
+    font-size: 1.3em;
+    letter-spacing: 0.1px;
+    color: gray;
+}
+.company-partner-section .partners .partner h4{
+    font-size: 1.4em;
+    text-transform: capitalize;
+    color: gray;
+    font-family:sans-serif;
+}
+.company-partner-section .partners .partner:nth-child(2){
+    border-left: 1px solid teal;
+    border-right: 1px solid teal;
+}
+.company-partner-section .partners .partner img{
+    width: 40%;
+    height: auto;
+    margin-top: 20px;
+}.company-services-section{
+    display: flex;
+    background: white;
+    padding: 0px 100px 100px 100px;
+    gap: 25px;
+}
+
+.company-services-section .service{
+    flex: 1;
+    background: white;
+}
+.company-services-section .service img{
+    width: 50px;
+    height: auto;
+}
+.company-services-section .service h3{
+    font-size: 1.3em;
+    padding: 10px 0px;
+    color: black;
+    font-family: sans-serif;
+}
+.company-services-section .service p{
+    font-size: 0.9em;
+    color: teal;
+}
+
+/* end */
+/* page4 */
+.company-call-to-call-service-section{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 75px 100px;
+}
+.service img{
+    border-radius: 20px;
+    padding: 10px;
+}
+.call-to-call-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding-right: 100px;
+}
+.call-to-call-img{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.call-to-call-img img{
+    width: 100%;
+}
+.call-to-call-content h1{
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+    padding-right: 20px;
+}
+.call-to-call-content p{
+    font-size: 0.85em;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.group-btn{
+    display: flex;
+    gap: 40px;
+}
+.group-btn button{
+    padding: 20px 30px;
+    font-size: 1em;
+    font-weight: bold;
+    background: red;
+    color: white;
+    border: none;
+}
+.group-btn button:last-child{
+    background: white;
+    border: 1px solid gray;
+    border-radius: 30px;
+    color: black;
+    font-weight: 300;
+}
+.group-btn button:hover{
+    position: relative;
+    top: -5px;
+    transition: top 2s ;
+}
+.group-btn button:last-child:hover{
+    background: black;
+    color: white;
+}
+
+
+/* page 5 */
+.company-process-section{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 100px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.company-process-section h4{
+    margin-bottom: 25px;
+    text-align: center;
+    color: red;
+}
+.company-process-section >p{
+    width: 60%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.company-process-section p{
+    font-size: 0.9em;
+    padding-top: 15px;
+}
+.our-processes{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+}
+.process{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.process p{
+    font-size: 0.85em;
+    line-height: 20px;
+}
+.process span {
+    font-size: 4em;
+    font-weight: 700;
+    color:rgb(255, 0, 76);
+    font-family: sans-serif;
+    background: rgba(246, 122, 147, 0.284);
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+.our-processes h3{
+    font-size: 1.3em;
+    margin-top: 50px;
+}
+
+/* page 6*/
+.company-features-section{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 100px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.company-features-section > h2{
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-family: sans-serif;
+    text-align: center;
+}
+.company-features-section >p{
+    width: 60%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.features img{
+    border-radius: 10px;
+}
+.feature-content h3{
+    margin-bottom: 20px;
+    margin-right: 10px;
+
+}
+.feature-content p{
+    margin-bottom: 70px;
+}
+.company-features-section .our-features{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.company-features-section .our-features .features{
+    display: flex;
+    gap: 20px;
+}
+.company-features-section .our-features .features .feature{
+    flex: 1;
+    display: flex;
+    margin-bottom: 25px;
+    padding: 35px 50px;
+    border-radius: 15px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.company-features-section .our-features .features .feature img{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+.company-features-section .our-features .features .feature h3{
+    font-size: 1.4em;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+/* page 7 */
+.company-fqa-section{
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    padding: 25px 100px;
+    height: 100vh;
+    display: flex;
+}
+.fqa-cards{
+    display: flex;
+    flex-direction:column;
+}
+.fqa-card{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.fqa-card-question{
+    display: flex;
+    flex-direction: row;
+}
+.question{
+    display: flex;
+    flex-direction: row;
+    margin:10px;
+}
+.fqa-card-question span{
+    display: flex;
+    flex-direction: row;
+    background: rgba(128, 128, 128, 0.404);
+    width: 30px;
+    justify-content: center;
+    font-size: 20px;
+    padding:10px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    
+}
+
+/* page 8 */
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 100px;
+    height: 50vh;
+    display: flex;
+}
+.footer-menu-section{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-menu-section ul{
+    list-style: none;
+}
+.footer-menu-section li a{
+    text-decoration: none;
+    color: #000;
+}
+.menu ul{
+   padding: 10px;
+}
+.menu ,li, a{
+    padding: 5px;
+}
+.languages-section{
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.languages-section a{
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+.languages-active:hover{
+    text-decoration: underline;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-left ul{
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+}
+.footer-left li a{
+    color: #000;
+    text-decoration: none;
+}
+.footer-right{
+    margin-top: 20px;
+}
+ul span{
+    background: #000;
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
